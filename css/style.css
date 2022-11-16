@@ -114,6 +114,11 @@ img {
     grid-column: span 2;
 }
 
+.grid-content-title {
+    grid-column: span 6;
+    text-align: center;
+}
+
 
 /* infomation page layout settings */
 
@@ -124,12 +129,25 @@ img {
     justify-content: center;
 }
 
+.grid-page-content-half {
+    display: grid;
+    grid-template-columns: 525px 525px;
+    grid-gap: 20px;
+    justify-content: center;
+}
+
 .grid-page-content a:hover {
     opacity: 0.6;
 }
 
 .page-title {
     grid-column: span 6;
+    text-align: left; 
+    margin-top: 20%;
+}
+
+.page-title-half {
+    grid-column: span 2;
     text-align: left; 
     margin-top: 20%;
 }
@@ -210,4 +228,5 @@ ul {
     border-radius: 25px;
     opacity: 0.8;
 }
+
 
