@@ -36,7 +36,7 @@ nav .title-button {
     color: black;
     text-decoration: none;
     text-align: left center;
-    font-weight: normal;
+    font-weight: bold;
     display: inline-block;
     transition: 0.5s;
     background-color: white;
@@ -52,19 +52,18 @@ nav .title-button {
 }
 
 nav .nav-button {
-    font-size: 32px;
+    font-size: 24px;
     color: black;
     text-decoration: none;
-    text-align: left center;
+    text-align: center;
     font-weight: normal;
     display: inline-block;
     transition: 0.5s;
     background-color: white;
-    height: 84px;
-    width: 230px;
-    padding-left: 7px;
-    margin-top: 23px;
-    grid-column: 2;
+    height: 42px;
+    width: 165px;
+    padding-top: 5px;
+    margin-top: 46px;
 }
 
 .nav-button:hover{
