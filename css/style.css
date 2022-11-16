@@ -66,10 +66,11 @@ nav .nav-button {
     margin-top: 46px;
 }
 
-.nav-button:hover{
+.nav-button:hover {
     border-radius: 15px;
     opacity: 0.9;
 }
+
 
 /* default settings  */
 
