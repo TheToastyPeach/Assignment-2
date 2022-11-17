@@ -110,14 +110,31 @@ img {
 }
 
 .grid-main-image {
-    grid-row: 2;
-    width: 400px;
+    position: absolute;
+    right: 200px;
+    top: 100px;
+    width: 700px;
 }
 
 .grid-content-title {
     grid-column: span 6;
     text-align: center;
 }
+
+
+/* Written with help by my roommate and good friend: Donavon McDowell */
+.logo-container {
+	animation-name: egg;
+	animation-duration: 30s;
+	animation-iteration-count: infinite;
+	animation-direction: alternate-reverse;
+}
+
+@keyframes egg {
+	from { transform: rotate(360deg);}
+	to {transform: rotate(-360deg);}
+}
+/* End of helped section */
 
 
 /* infomation page layout settings */
