@@ -229,4 +229,21 @@ ul {
     opacity: 0.8;
 }
 
+.recipe-button{
+    color: white;
+    text-decoration: none;
+    font-weight: normal;
+    font-size: 24px;
+    padding: 5px;
+    display: inline-block;
+    transition: 0.5s;
+    background-color: #FED766;
+    
+}
+
+.recipe-button:hover{
+    border-radius: 25px;
+    opacity: 0.8;
+}
+
 
