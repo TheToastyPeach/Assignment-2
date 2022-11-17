@@ -111,7 +111,7 @@ img {
 
 .grid-main-image {
     grid-row: 2;
-    grid-column: span 2;
+    width: 400px;
 }
 
 .grid-content-title {
