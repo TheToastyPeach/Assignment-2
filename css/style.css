@@ -175,6 +175,10 @@ section .padded {
     padding-right: 10px;
 }
 
+.circle-cut {
+    border-radius: 100%;
+}
+
 /* text settings */
 
 h1{
@@ -203,10 +207,14 @@ p {
 
 li {
     text-align: left;
+    font-weight: normal;
+    color: black;
 }
 
 ul {
     text-align: left;
+    font-weight: bold;
+    color: #FE4A49;
 }
 
 /* button properties */
