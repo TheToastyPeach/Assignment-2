@@ -142,14 +142,18 @@ img {
 
 .page-title {
     grid-column: span 6;
-    text-align: left; 
+    text-align: left;
+    margin-top: 75px; 
+}
+
+.top-title {
     margin-top: 20%;
 }
 
 .page-title-half {
     grid-column: span 2;
     text-align: left; 
-    margin-top: 20%;
+    margin-top: 75px;
 }
 
 .white-box {
@@ -199,8 +203,16 @@ h3 {
     margin: 0;
 }
 
+h4 {
+    font-size: 21px;
+    font-weight: bold;
+    margin: 0;
+    margin-top: 25px;
+}
+
 p {
     font-size: 18px;
+    margin-top: 10px;
 }
 
 /* list settings */
