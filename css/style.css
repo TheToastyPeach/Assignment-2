@@ -365,6 +365,11 @@ ul {
         margin-left: 5%;
     }
 
+    section.grid-page-content-half {
+        margin-right: 5%;
+        margin-left: 5%;
+    }
+
     .grid-page-content-half {
         display: grid;
         grid-template-columns: 1fr;
@@ -375,7 +380,6 @@ ul {
     .page-title {
         grid-column: span 1;
         text-align: left;
-        margin-top: 75px; 
     }
 
     .top-title {
@@ -400,10 +404,6 @@ ul {
         grid-row: 4;
     }
 
-    .margin-bottom {
-        margin-bottom: 0px;
-    }
-
     .icon-style {
         width: 0;
         margin-top: -50px;
@@ -426,6 +426,21 @@ ul {
     footer h3 {
         margin-right: 5%;
         margin-left: 5%;
+    }
+
+    .grid-main-title {
+        grid-column: span 1;
+    }
+
+    .grid-content-title {
+        grid-column: span 1;
+        text-align: center;
+    }
+
+    .page-title-half {
+        grid-column: span 1;
+        text-align: left; 
+        margin-top: 75px;
     }
 }
 
